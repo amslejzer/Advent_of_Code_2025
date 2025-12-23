@@ -9,7 +9,7 @@ with open("Day01/Input.txt") as Input:
             if direction == "R":
                 position = (position + 1) % 100
             elif direction == "L":
-                position = (position - 1) %100
+                position = (position - 1) % 100
             if position == 0:
                 ZeroCount += 1
 
