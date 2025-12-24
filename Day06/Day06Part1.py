@@ -1,7 +1,7 @@
 lines = []
 grand_total = 0
 
-with open("Day06/Input.txt", "r") as file:
+with open("Day06/TestInput.txt", "r") as file:
     for line in file:
         lines.append(line.split())
 
@@ -17,4 +17,4 @@ for items in zip(*lines):
             column_result *= int(items[iterator])
     grand_total += column_result
 
-print(grand_total)
+print
