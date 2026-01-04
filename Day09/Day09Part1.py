@@ -1,5 +1,4 @@
 from itertools import combinations
-import math
 
 coordinates = []
 largest_area = 0
